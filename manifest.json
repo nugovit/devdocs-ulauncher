@@ -1,0 +1,19 @@
+{
+  "required_api_version": "^2.0.0",
+  "name": "DevDocsUL",
+  "description": "DevDocs search for ULauncher.",
+  "developer_name": "Rafael C. de Paula",
+  "icon": "images/icon.png",
+  "options": {
+    "query_debounce": 0.1
+  },
+  "preferences": [
+    {
+      "id": "devdocs_ul",
+      "type": "keyword",
+      "name": "DevDocsUL",
+      "description": "DevDocs search for ULauncher",
+      "default_value": "dd"
+    }
+  ]
+}
